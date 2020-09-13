@@ -1,0 +1,32 @@
+{
+  "name": "@cjulian/debug-react",
+  "version": "0.0.1",
+  "description": "A React component that outputs a value stringified and preformatted.",
+  "main": "./dist/lib/index.js",
+  "module": "./dist/es/index.js",
+  "scripts": {
+    "build": "rollup --config ./rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjulian/debug-react.git"
+  },
+  "author": "Carlo Julian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjulian/debug-react/issues"
+  },
+  "homepage": "https://github.com/cjulian/debug-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4",
+    "@rollup/plugin-babel": "^5.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "rollup": "^2.26.11"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  }
+}
